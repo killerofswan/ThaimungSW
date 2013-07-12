@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaiMung2", "ThaiMung2\ThaiMung2.csproj", "{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A2F1DF1F-1DCF-471B-BCC4-C75F6DCF355E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|ARM.Build.0 = Debug|ARM
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|x64.ActiveCfg = Debug|x64
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|x64.Build.0 = Debug|x64
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|x64.Deploy.0 = Debug|x64
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|x86.ActiveCfg = Debug|x86
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|x86.Build.0 = Debug|x86
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Debug|x86.Deploy.0 = Debug|x86
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|ARM.ActiveCfg = Release|ARM
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|ARM.Build.0 = Release|ARM
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|ARM.Deploy.0 = Release|ARM
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|x64.ActiveCfg = Release|x64
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|x64.Build.0 = Release|x64
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|x64.Deploy.0 = Release|x64
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|x86.ActiveCfg = Release|x86
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|x86.Build.0 = Release|x86
+		{21ED23E2-8725-4FD5-92B4-C510C7F2FAAA}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

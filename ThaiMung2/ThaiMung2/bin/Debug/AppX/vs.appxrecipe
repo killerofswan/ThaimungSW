@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PROT</Machine>
+    <WindowsUser>parat_000</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>768917823DAEFBA7A4F1980F07804A526FEDC1540B8F843302DD114909CBA7DD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6636d0c6-3d7e-4ec4-b859-f4bcecd76290_1.0.0.0_neutral__9yyc1w0mkv70e</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6636d0c6-3d7e-4ec4-b859-f4bcecd76290_9yyc1w0mkv70e!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6636d0c6-3d7e-4ec4-b859-f4bcecd76290</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=parat_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-01T09:12:29.327</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\Debug\ThaiMung2.exe">
+      <PackagePath>ThaiMung2.exe</PackagePath>
+      <Modified>2013-07-02T05:17:51.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\Debug\ThaiMung2.pdb">
+      <PackagePath>ThaiMung2.pdb</PackagePath>
+      <Modified>2013-07-02T05:17:51.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T13:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T13:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T13:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T13:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-07-01T08:21:51.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-07-01T08:13:59.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T09:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-07-01T08:14:00.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\Debug\PostPage.xaml">
+      <PackagePath>PostPage.xaml</PackagePath>
+      <Modified>2013-07-02T05:17:47.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-07-01T09:12:29.184</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

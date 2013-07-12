@@ -1,0 +1,13 @@
+appicon.png
+Assets\Logo.png
+Assets\SmallLogo.png
+Assets\SplashScreen.png
+Assets\StoreLogo.png
+App.xaml
+Common\StandardStyles.xaml
+FilterFlyout.xaml
+MainPage.xaml
+MyUserControl1.xaml
+PostPage.xaml
+Common\ReadMe.txt
+metadata.xml
