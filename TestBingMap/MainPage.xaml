@@ -8,8 +8,8 @@
     xmlns:bm="using:Bing.Maps"
     mc:Ignorable="d">
 
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <bm:Map Credentials="AhM23sQjMWJqyNEOwpSFp24ZoJpOrD8j0h_Adn1Guxm7be-zCVOin_fk1sJHkbtx" x:Name="myMap"></bm:Map>
+    <Grid Name="mainGrid" Background="{StaticResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.505,0.531">
+        <!--<bm:Map Credentials="AhM23sQjMWJqyNEOwpSFp24ZoJpOrD8j0h_Adn1Guxm7be-zCVOin_fk1sJHkbtx" x:Name="myMap"></bm:Map>-->
 
     </Grid>
 </Page>

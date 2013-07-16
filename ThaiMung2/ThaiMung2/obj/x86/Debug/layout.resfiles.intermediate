@@ -6,7 +6,10 @@ Assets\StoreLogo.png
 App.xaml
 Common\StandardStyles.xaml
 FilterFlyout.xaml
+LocationIcon100m.xaml
+LocationIcon10m.xaml
 MainPage.xaml
+MyMap.xaml
 MyUserControl1.xaml
 PostPage.xaml
 Common\ReadMe.txt

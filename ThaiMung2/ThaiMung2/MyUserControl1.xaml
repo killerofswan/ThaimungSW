@@ -17,17 +17,17 @@
             </Border.Transitions>
             <Canvas x:Name="tagCanvas" Margin="0,0,0,0" VerticalAlignment="Top" Background="WhiteSmoke" Height="380" Width="244">
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Canvas.Left="24" Canvas.Top="25" Width="220" >
-                    <CheckBox Foreground="Black" Content="Traffic" Margin="0,0,75,0" FontSize="18" />
-                    <CheckBox Foreground="Black" Content="Accident" Margin="0,0,75,0" FontSize="18" />
-                    <CheckBox Foreground="Black" Content="Crime" Margin="0,0,75,0" FontSize="18" FontFamily="Segoe UI" />
-                    <CheckBox Foreground="Black" Content="Fireaccident" Margin="0,0,75,0" FontSize="18" FontFamily="Segoe UI" />
-                    <CheckBox Foreground="Black" Content="Protesting" Margin="0,0,75,0" FontSize="18" FontFamily="Segoe UI" />
-                    <CheckBox Foreground="Black" Content="Blackout" Margin="0,0,75,0" FontSize="18"/>
-                    <CheckBox Foreground="Black" Content="Flood" Margin="0,0,75,0" FontSize="18"/>
-                    <CheckBox Foreground="Black" Content="Earthquake" Margin="0,0,75,0" FontSize="18"/>
-                    <CheckBox Foreground="Black" Content="Construction" Margin="0,0,75,0" FontSize="18"/>
-                    <CheckBox Foreground="Black" Content="Terrorist" Margin="0,0,75,0" FontSize="18"/>
-                    <CheckBox Foreground="Black" Content="Other" Margin="0,0,75,0" FontSize="18"/>
+                    <CheckBox x:Name="checkTraffic" Foreground="Black" Content="Traffic" Margin="0,0,75,0" FontSize="18" />
+                    <CheckBox x:Name="checkAccident" Foreground="Black" Content="Accident" Margin="0,0,75,0" FontSize="18" />
+                    <CheckBox x:Name="checkCrime" Foreground="Black" Content="Crime" Margin="0,0,75,0" FontSize="18" FontFamily="Segoe UI" />
+                    <CheckBox x:Name="checkFire" Foreground="Black" Content="Fireaccident" Margin="0,0,75,0" FontSize="18" FontFamily="Segoe UI" />
+                    <CheckBox x:Name="checkProtesting" Foreground="Black" Content="Protesting" Margin="0,0,75,0" FontSize="18" FontFamily="Segoe UI" />
+                    <CheckBox x:Name="checkBlackout" Foreground="Black" Content="Blackout" Margin="0,0,75,0" FontSize="18"/>
+                    <CheckBox x:Name="checkFlood"  Foreground="Black" Content="Flood" Margin="0,0,75,0" FontSize="18"/>
+                    <CheckBox x:Name="checkEarth" Foreground="Black" Content="Earthquake" Margin="0,0,75,0" FontSize="18"/>
+                    <CheckBox x:Name="checkConstruction" Foreground="Black" Content="Construction" Margin="0,0,75,0" FontSize="18"/>
+                    <CheckBox x:Name="checkTerrorist" Foreground="Black" Content="Terrorist" Margin="0,0,75,0" FontSize="18"/>
+                    <CheckBox x:Name="checkOther" Foreground="Black" Content="Other" Margin="0,0,75,0" FontSize="18"/>
                 </StackPanel>
                 <Button x:Name="saveTagButton" Content="" Canvas.Left="152" Canvas.Top="314" Style="{StaticResource AppBarButtonStyle}" Foreground="Black" BorderBrush="{x:Null}" Click="saveTagButton_Click"/>
             </Canvas>

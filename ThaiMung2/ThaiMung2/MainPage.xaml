@@ -5,9 +5,9 @@
     xmlns:local="using:ThaiMung2"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:bm="using:Bing.Maps"
+    xmlns:Maps="using:Bing.Maps"
     mc:Ignorable="d">
-
+    <!--xmlns:bm="using:Bing.Maps"-->
     <Page.BottomAppBar>
         <AppBar  x:Name="bottomAppBar" Padding="10,0,10,0">
             <Grid Height="84">
@@ -30,8 +30,10 @@
                 <TextBlock Canvas.Left="1121" TextWrapping="Wrap" Text="Ban" Canvas.Top="19" HorizontalAlignment="Right" Foreground="Black" FontFamily="Segoe UI Light" FontSize="36" Width="227" TextAlignment="Right"/>
             </Canvas>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="688" Margin="0,80,0,0" VerticalAlignment="Top" Width="1366">
-            <bm:Map Credentials="AoUOuK_2G1s85Q2GY00D7N0jxGEAmgxI5GvJcCcNsdER1y6FInZRydfJacQhwGNB" x:Name="myMap"/>
+        <Grid  Name="mainGrid" HorizontalAlignment="Left" Height="688" Margin="0,80,0,0" VerticalAlignment="Top" Width="1366">
+            <!--bm:Map Credentials="AoUOuK_2G1s85Q2GY00D7N0jxGEAmgxI5GvJcCcNsdER1y6FInZRydfJacQhwGNB" x:Name="myMap"/-->
+            <!--<Maps:Map x:Name="Map" Margin="0,0,0,0" Credentials="AoUOuK_2G1s85Q2GY00D7N0jxGEAmgxI5GvJcCcNsdER1y6FInZRydfJacQhwGNB"/>-->
+            
         </Grid>
 
     </Grid>

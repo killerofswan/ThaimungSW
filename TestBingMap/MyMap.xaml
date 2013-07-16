@@ -1,0 +1,20 @@
+﻿<UserControl
+    x:Class="TestBingMap.MyMap"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestBingMap"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Bing.Maps"
+    mc:Ignorable="d" Height="773" Width="1360">
+    <!--xmlns:bm="using:Bing.Maps"-->
+
+    <Grid Name="mapsGrid">
+        <Border Name="mapsBorder">
+            <Canvas x:Name="mapsCanvas">
+                <!--bm:Map Credentials="AhM23sQjMWJqyNEOwpSFp24ZoJpOrD8j0h_Adn1Guxm7be-zCVOin_fk1sJHkbtx" x:Name="myMap" Height="781" Width="1342" Canvas.Left="8" Canvas.Top="-59"/-->
+                <Maps:Map x:Name="Map" Margin="0,0,0,0" Credentials="AhM23sQjMWJqyNEOwpSFp24ZoJpOrD8j0h_Adn1Guxm7be-zCVOin_fk1sJHkbtx" Height="781" Width="1342" />
+            </Canvas>
+        </Border>
+    </Grid>
+</UserControl>

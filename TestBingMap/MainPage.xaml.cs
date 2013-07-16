@@ -21,9 +21,16 @@ namespace TestBingMap
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        MyMap map;
         public MainPage()
         {
             this.InitializeComponent();
+            double ScreenW = Window.Current.Bounds.Width;
+            double ScreenH = Window.Current.Bounds.Height;
+            map = new MyMap();
+            mainGrid.Children.Add(map);
+            mainGrid.Width = ScreenW;
+            mainGrid.Height = ScreenH;
         }
 
         /// <summary>

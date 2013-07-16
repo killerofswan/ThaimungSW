@@ -1,1 +1,1 @@
-C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\TestBingMap.csproj;x86
+C:\Users\tong__000\Documents\GitHub\ThaimungSW\TestBingMap\TestBingMap.csproj;x86

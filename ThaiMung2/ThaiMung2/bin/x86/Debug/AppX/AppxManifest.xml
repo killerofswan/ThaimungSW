@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="6636d0c6-3d7e-4ec4-b859-f4bcecd76290" Publisher="CN=parat_000" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="6636d0c6-3d7e-4ec4-b859-f4bcecd76290" Publisher="CN=tong__000" Version="1.0.0.0" ProcessorArchitecture="x86" />
   <Properties>
     <DisplayName>ThaiMung2</DisplayName>
     <PublisherDisplayName>parat_000</PublisherDisplayName>
@@ -30,9 +30,10 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <DeviceCapability Name="location" />
   </Capabilities>
   <Dependencies>
-    <PackageDependency Name="Microsoft.VCLibs.110.00.Debug" MinVersion="11.0.51106.1" />
+    <PackageDependency Name="Microsoft.VCLibs.110.00.Debug" MinVersion="11.0.50727.1" />
   </Dependencies>
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">
@@ -120,10 +121,9 @@
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5" />
     <build:Item Name="VisualStudio" Version="11.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Ultimate 2012" />
     <build:Item Name="OperatingSystem" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.60610.1" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="11.0.60315.1" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.50727.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="11.0.50727.1" />
     <build:Item Name="Bing.Maps.Xaml" Version="1.113.0601.1" />
     <build:Item Name="MakePri.exe" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
   </build:Metadata>
