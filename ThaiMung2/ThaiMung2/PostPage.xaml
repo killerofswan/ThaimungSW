@@ -168,9 +168,9 @@
             </Grid.ColumnDefinitions>
 
             <Grid Name="postMap" HorizontalAlignment="Left" Margin="118,42,0,0" Width="498" Background="#FF6C6868" Opacity="0.56" Height="498" VerticalAlignment="Top" Grid.ColumnSpan="2">
-                <Maps:Map x:Name="Map" Margin="0,0,0,0" Credentials="AhM23sQjMWJqyNEOwpSFp24ZoJpOrD8j0h_Adn1Guxm7be-zCVOin_fk1sJHkbtx"  Tapped="Map_Tapped"  >
+                <!--" Maps:Map x:Name="Map" Margin="0,0,0,0" Credentials="AhM23sQjMWJqyNEOwpSFp24ZoJpOrD8j0h_Adn1Guxm7be-zCVOin_fk1sJHkbtx"  Tapped="Map_Tapped"  >
                     
-                </Maps:Map>
+                </Maps:Map-->
                 
             </Grid>
         </Grid>

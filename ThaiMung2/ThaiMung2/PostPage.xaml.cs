@@ -37,17 +37,22 @@ namespace ThaiMung2
         MyUserControl1 tag;
         private string tag_id;
         
-        //MyMap pMap;
+        MyMap pMap;
         public PostPage()
         {
             this.InitializeComponent();
 
             tag = new MyUserControl1(this);
-            _geolocator = new Geolocator();
-            _locationIcon10m = new LocationIcon10m();
-            Map.Children.Add(_locationIcon10m);
-            _locationIcon100m = new LocationIcon100m();
-            getCurrentLocation();
+            //_geolocator = new Geolocator();
+            //_locationIcon10m = new LocationIcon10m();
+            //Map.Children.Add(_locationIcon10m);
+            //_locationIcon100m = new LocationIcon100m();
+            pMap = new MyMap(498, 498,this);
+            postMap.Children.Add(pMap);
+            pMap.getCurrentLocation();
+
+            
+            //getCurrentLocation();
             date.Text = DateTime.Now.ToString("yyyy-MM-dd");
             
             //pMap = new MyMap(498,498);
@@ -75,90 +80,90 @@ namespace ThaiMung2
         /// <param name="pageState">An empty dictionary to be populated with serializable state.</param>
         /// 
 
-        public async void getCurrentLocation()
-        {
-            // Change the state of our buttons.
-            //MapLocationButton.IsEnabled = false;
-            //CancelGetLocationButton.IsEnabled = true;
+        //public async void getCurrentLocation()
+        //{
+        //    // Change the state of our buttons.
+        //    //MapLocationButton.IsEnabled = false;
+        //    //CancelGetLocationButton.IsEnabled = true;
 
-            // Remove any previous location icon.
-            if (Map.Children.Count > 0)
-            {
-                Map.Children.RemoveAt(0);
-            }
+        //    // Remove any previous location icon.
+        //    if (Map.Children.Count > 0)
+        //    {
+        //        Map.Children.RemoveAt(0);
+        //    }
 
-            try
-            {
-                // Get the cancellation token.
-                _cts = new CancellationTokenSource();
-                CancellationToken token = _cts.Token;
+        //    try
+        //    {
+        //        // Get the cancellation token.
+        //        _cts = new CancellationTokenSource();
+        //        CancellationToken token = _cts.Token;
 
-                //MessageTextbox.Text = "Waiting for update...";
+        //        //MessageTextbox.Text = "Waiting for update...";
 
-                // Get the location.
-                Geoposition pos = await _geolocator.GetGeopositionAsync().AsTask(token);
+        //        // Get the location.
+        //        Geoposition pos = await _geolocator.GetGeopositionAsync().AsTask(token);
 
-                //MessageTextbox.Text = "";
+        //        //MessageTextbox.Text = "";
 
-                Location location = new Location(pos.Coordinate.Latitude, pos.Coordinate.Longitude);
+        //        Location location = new Location(pos.Coordinate.Latitude, pos.Coordinate.Longitude);
 
-                // Now set the zoom level of the map based on the accuracy of our location data.
-                // Default to IP level accuracy. We only show the region at this level - No icon is displayed.
-                double zoomLevel = 13.0f;
+        //        // Now set the zoom level of the map based on the accuracy of our location data.
+        //        // Default to IP level accuracy. We only show the region at this level - No icon is displayed.
+        //        double zoomLevel = 13.0f;
 
-                // if we have GPS level accuracy
-                if (pos.Coordinate.Accuracy <= 10)
-                {
-                    // Add the 10m icon and zoom closer.
-                    //Map.Children.Add(_locationIcon10m);
-                    Pushpin push10 = new Pushpin();
-                    Map.Children.Add(push10);
-                    MapLayer.SetPosition(push10, location);
-                    //MapLayer.SetPosition(_locationIcon10m, location);
-                    zoomLevel = 15.0f;
-                }
-                // Else if we have Wi-Fi level accuracy.
-                //else if (pos.Coordinate.Accuracy <= 100)
-                else
-                {
-                    // Add the 100m icon and zoom a little closer.
-                    //Pushpin push = new Pushpin();
-                    Map.Children.Add(_locationIcon100m);
-                    //Map.Children.Add(push);
-                    MapLayer.SetPosition(_locationIcon100m, location);
-                    //MapLayer.SetPosition(push, location);
-                    zoomLevel = 14.0f;
-                }
+        //        // if we have GPS level accuracy
+        //        if (pos.Coordinate.Accuracy <= 10)
+        //        {
+        //            // Add the 10m icon and zoom closer.
+        //            //Map.Children.Add(_locationIcon10m);
+        //            Pushpin push10 = new Pushpin();
+        //            Map.Children.Add(push10);
+        //            MapLayer.SetPosition(push10, location);
+        //            //MapLayer.SetPosition(_locationIcon10m, location);
+        //            zoomLevel = 15.0f;
+        //        }
+        //        // Else if we have Wi-Fi level accuracy.
+        //        //else if (pos.Coordinate.Accuracy <= 100)
+        //        else
+        //        {
+        //            // Add the 100m icon and zoom a little closer.
+        //            //Pushpin push = new Pushpin();
+        //            Map.Children.Add(_locationIcon100m);
+        //            //Map.Children.Add(push);
+        //            MapLayer.SetPosition(_locationIcon100m, location);
+        //            //MapLayer.SetPosition(push, location);
+        //            zoomLevel = 14.0f;
+        //        }
 
-                // Set the map to the given location and zoom level.
-                Map.SetView(location, zoomLevel);
+        //        // Set the map to the given location and zoom level.
+        //        Map.SetView(location, zoomLevel);
 
-                // Display the location information in the textboxes.
-                //LatitudeTextbox.Text = pos.Coordinate.Latitude.ToString();
-                //LongitudeTextbox.Text = pos.Coordinate.Longitude.ToString();
-                //AccuracyTextbox.Text = pos.Coordinate.Accuracy.ToString();
-            }
-            catch (System.UnauthorizedAccessException)
-            {
-                // MessageTextbox.Text = "Location disabled.";
+        //        // Display the location information in the textboxes.
+        //        //LatitudeTextbox.Text = pos.Coordinate.Latitude.ToString();
+        //        //LongitudeTextbox.Text = pos.Coordinate.Longitude.ToString();
+        //        //AccuracyTextbox.Text = pos.Coordinate.Accuracy.ToString();
+        //    }
+        //    catch (System.UnauthorizedAccessException)
+        //    {
+        //        // MessageTextbox.Text = "Location disabled.";
 
-                //LatitudeTextbox.Text = "No data";
-                //LongitudeTextbox.Text = "No data";
-                //AccuracyTextbox.Text = "No data";
-            }
-            catch (TaskCanceledException)
-            {
-                //MessageTextbox.Text = "Operation canceled.";
-            }
-            finally
-            {
-                _cts = null;
-            }
+        //        //LatitudeTextbox.Text = "No data";
+        //        //LongitudeTextbox.Text = "No data";
+        //        //AccuracyTextbox.Text = "No data";
+        //    }
+        //    catch (TaskCanceledException)
+        //    {
+        //        //MessageTextbox.Text = "Operation canceled.";
+        //    }
+        //    finally
+        //    {
+        //        _cts = null;
+        //    }
 
-            // Reset the buttons.
-            //MapLocationButton.IsEnabled = true;
-            //CancelGetLocationButton.IsEnabled = false; ;
-        }
+        //    // Reset the buttons.
+        //    //MapLocationButton.IsEnabled = true;
+        //    //CancelGetLocationButton.IsEnabled = false; ;
+        //}
         protected override void SaveState(Dictionary<String, Object> pageState)
         {
         }
@@ -174,34 +179,34 @@ namespace ThaiMung2
           
         }
 
-        private void Map_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            Map.Children.Clear();
-            // Disables the default mouse double-click action.
-            e.Handled = true;
+        //private void Map_Tapped(object sender, TappedRoutedEventArgs e)
+        //{
+        //    Map.Children.Clear();
+        //    // Disables the default mouse double-click action.
+        //    e.Handled = true;
 
-            // Determin the location to place the pushpin at on the map.
+        //    // Determin the location to place the pushpin at on the map.
 
-            //Get the mouse click coordinates
-            Point tapPosition = e.GetPosition(this);
-            //Convert the mouse coordinates to a locatoin on the map
+        //    //Get the mouse click coordinates
+        //    Point tapPosition = e.GetPosition(this);
+        //    //Convert the mouse coordinates to a locatoin on the map
 
-            //Location pinLocation = Map.ViewportPointToLocation(mousePosition);
-            Location location;
-            Map.TryPixelToLocation(tapPosition, out location);
+        //    //Location pinLocation = Map.ViewportPointToLocation(mousePosition);
+        //    Location location;
+        //    Map.TryPixelToLocation(tapPosition, out location);
+             
+        //    latitude.Text = location.Latitude.ToString();
+        //    longtitude.Text = location.Longitude.ToString();
 
-            latitude.Text = location.Latitude.ToString();
-            longtitude.Text = location.Longitude.ToString();
+        //    // The pushpin to add to the map.
+        //    Pushpin pin = new Pushpin();
+        //    //pin.Location = pinLocation;
+        //    MapLayer.SetPosition(pin, location);
 
-            // The pushpin to add to the map.
-            Pushpin pin = new Pushpin();
-            //pin.Location = pinLocation;
-            MapLayer.SetPosition(pin, location);
-
-            // Adds the pushpin to the map.
-            Map.Children.Add(pin);
-            Map.SetView(location);
-        }
+        //    // Adds the pushpin to the map.
+        //    Map.Children.Add(pin);
+        //    Map.SetView(location);
+        //}
 
         private async void postButton_Click(object sender, RoutedEventArgs e)
         {
@@ -231,6 +236,11 @@ namespace ThaiMung2
 
         public void setTagsId(string s) {
             tag_id = s;
+        }
+
+        public void setLocation(string lati, string longti) {
+            latitude.Text = lati;
+            longtitude.Text = longti;
         }
     }
 }
