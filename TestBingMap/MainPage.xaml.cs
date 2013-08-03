@@ -34,7 +34,15 @@ namespace TestBingMap
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+        private void writeEvent_Click(object sender, RoutedEventArgs e)
+        {
+            //Frame.Navigate(typeof(PostPage));
+        }
 
+        private void filter_Click(object sender, RoutedEventArgs e)
+        {
+            //ft.Show();
+        }
         
     }
 }

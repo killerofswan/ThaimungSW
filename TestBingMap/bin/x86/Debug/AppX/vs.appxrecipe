@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\bin\x86\Debug\TestBingMap.exe">
       <PackagePath>TestBingMap.exe</PackagePath>
-      <Modified>2013-07-06T07:13:00.161</Modified>
+      <Modified>2013-07-14T05:07:49.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\bin\x86\Debug\TestBingMap.pdb">
       <PackagePath>TestBingMap.pdb</PackagePath>
-      <Modified>2013-07-06T07:12:59.906</Modified>
+      <Modified>2013-07-14T05:07:49.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\parat_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.1\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -370,7 +370,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\bin\x86\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2013-07-05T18:53:00.971</Modified>
+      <Modified>2013-07-14T05:06:35.404</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

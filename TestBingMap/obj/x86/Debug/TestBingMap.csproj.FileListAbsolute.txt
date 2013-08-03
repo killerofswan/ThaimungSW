@@ -18,10 +18,6 @@ C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\MainPag
 C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\TestBingMap.exe
 C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\TestBingMap.pdb
 C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\TestBingMap.csproj.GenerateResource.Cache
-C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\priconfig.xml.intermediate
-C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\layout.resfiles.intermediate
-C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\resources.resfiles.intermediate
-C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\pri.resfiles.intermediate
 C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\priconfig.xml
 C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\layout.resfiles
 C:\Users\parat_000\Documents\GitHub\ThaimungSW\TestBingMap\obj\x86\Debug\resources.resfiles

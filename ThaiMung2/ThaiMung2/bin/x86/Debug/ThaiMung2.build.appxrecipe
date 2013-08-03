@@ -7,20 +7,23 @@
     <PackageArchitecture>x86</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\x86\Debug\ThaiMung2.exe">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\ThaiMung2.exe">
       <PackagePath>ThaiMung2.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\x86\Debug\ThaiMung2.pdb">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\ThaiMung2.pdb">
       <PackagePath>ThaiMung2.pdb</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\parat_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.1\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\packages\Newtonsoft.Json.5.0.6\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\parat_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.1\Redist\debug\x86\Bing.Maps.dll">
       <PackagePath>Bing.Maps.dll</PackagePath>
@@ -253,50 +256,80 @@
     <AppxPackagedFile Include="C:\Users\parat_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.1\Redist\CommonConfiguration\neutral\Bing.Maps\UnifiedStyle.MapStyle">
       <PackagePath>Bing.Maps\UnifiedStyle.MapStyle</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\appicon.png">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\appicon.png">
       <PackagePath>appicon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\Common\ReadMe.txt">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\PostIt.png">
+      <PackagePath>PostIt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\PostIt2.png">
+      <PackagePath>PostIt2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\metadata.xml">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\metadata.xml">
       <PackagePath>metadata.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\x86\Debug\App.xaml">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\x86\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\AdminPage.xaml">
+      <PackagePath>AdminPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\x86\Debug\FilterFlyout.xaml">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\FilterFlyout.xaml">
       <PackagePath>FilterFlyout.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\x86\Debug\MainPage.xaml">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\FullText.xaml">
+      <PackagePath>FullText.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\ListWitness.xaml">
+      <PackagePath>ListWitness.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\LocationIcon100m.xaml">
+      <PackagePath>LocationIcon100m.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\LocationIcon10m.xaml">
+      <PackagePath>LocationIcon10m.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\x86\Debug\MyUserControl1.xaml">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\MyMap.xaml">
+      <PackagePath>MyMap.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\MyUserControl1.xaml">
       <PackagePath>MyUserControl1.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\x86\Debug\PostPage.xaml">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\OtherUser.xaml">
+      <PackagePath>OtherUser.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\OwnerEvent.xaml">
+      <PackagePath>OwnerEvent.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\PostPage.xaml">
       <PackagePath>PostPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\parat_000\Documents\Visual Studio 2012\Projects\ThaiMung2\ThaiMung2\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\parat_000\Downloads\ThaimungSW-master %281%29\ThaimungSW-master\ThaiMung2\ThaiMung2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

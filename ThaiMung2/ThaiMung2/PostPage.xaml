@@ -8,7 +8,7 @@
     xmlns:common="using:ThaiMung2.Common"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:bm="using:Bing.Maps"
+    xmlns:Maps="using:Bing.Maps"
     mc:Ignorable="d">
 
     <Page.Resources>
@@ -28,7 +28,7 @@
             <AppBar x:Name="bottomAppBar" Padding="10,0,10,0">
                 <Grid Height="84">
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-                        <Button x:Name="postButton" Style="{StaticResource AppBarButtonStyle}" Content="&#xE1A9;" AutomationProperties.Name="Post"/>
+                        <Button x:Name="postButton" Style="{StaticResource AppBarButtonStyle}" Content="&#xE1A9;" AutomationProperties.Name="Post" Click="postButton_Click"/>
                         <Button x:Name="tagButton" Content="" Style="{StaticResource AppBarButtonStyle}" AutomationProperties.Name="Tags" Click="tagButton_Click"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
@@ -60,7 +60,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBlock HorizontalAlignment="Left" Margin="68,34,0,0" TextWrapping="Wrap" Text="Date: " VerticalAlignment="Top" Height="28" FontSize="22" Width="66" FontFamily="Segoe UI"/>
-            <TextBlock HorizontalAlignment="Left" Margin="139,34,0,0" TextWrapping="Wrap" Text="yyyy-mm-dd" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="22"/>
+            <TextBlock x:Name="date" HorizontalAlignment="Left" Margin="139,34,0,0" TextWrapping="Wrap" Text="yyyy-mm-dd" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="22"/>
             <TextBlock HorizontalAlignment="Left" Margin="68,90,0,0" TextWrapping="Wrap" Text="Time: " VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="22"/>
             <ComboBox x:Name="TimeHour" HorizontalAlignment="Left" Margin="139,90,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" FontSize="22" SelectedItem="00" IsSynchronizedWithCurrentItem="False">
                 <x:String>00</x:String>
@@ -151,10 +151,14 @@
                 <x:String>58</x:String>
                 <x:String>59</x:String>
             </ComboBox>
-            <TextBlock HorizontalAlignment="Left" Margin="68,435,0,0" TextWrapping="Wrap" Text="Tags:" VerticalAlignment="Top" Foreground="#FFFBF7F7" FontFamily="Segoe UI" FontSize="22"/>
-            <TextBlock x:Name="Tags" HorizontalAlignment="Left" Margin="139,435,0,0" TextWrapping="Wrap" Text="Open Appbar to choose tags" VerticalAlignment="Top" FontSize="22" FontFamily="Segoe UI" Width="456" Height="116" Grid.ColumnSpan="2"/>
-            <TextBlock HorizontalAlignment="Left" Margin="68,146,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top" FontSize="22" FontFamily="Segoe UI"/>
-            <TextBox x:Name="DescriptionText" HorizontalAlignment="Left" Margin="129,209,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="186" Width="456"/>
+            <TextBlock HorizontalAlignment="Left" Margin="68,494,0,0" TextWrapping="Wrap" Text="Tags:" VerticalAlignment="Top" Foreground="#FFFBF7F7" FontFamily="Segoe UI" FontSize="22"/>
+            <TextBlock x:Name="Tags" HorizontalAlignment="Left" Margin="139,494,0,0" TextWrapping="Wrap" Text="Open Appbar to choose tags" VerticalAlignment="Top" FontSize="22" FontFamily="Segoe UI" Width="456" Height="116" Grid.ColumnSpan="2"/>
+            <TextBlock HorizontalAlignment="Left" Margin="68,253,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top" FontSize="22" FontFamily="Segoe UI"/>
+            <TextBox x:Name="DescriptionText" HorizontalAlignment="Left" Margin="129,298,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="186" Width="456"/>
+            <TextBlock HorizontalAlignment="Left" Margin="68,146,0,0" TextWrapping="Wrap" Text="Latitude: " VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="22"/>
+            <TextBlock HorizontalAlignment="Left" Margin="69,198,0,0" TextWrapping="Wrap" Text="Longtitude: " VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="22"/>
+            <TextBlock x:Name="latitude" HorizontalAlignment="Left" Margin="176,146,0,0" TextWrapping="Wrap" Text="1234" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="22"/>
+            <TextBlock x:Name="longtitude" HorizontalAlignment="Left" Margin="197,198,0,0" TextWrapping="Wrap" Text="1234" VerticalAlignment="Top" FontFamily="Segoe UI" FontSize="22"/>
 
         </Grid>
         <Grid HorizontalAlignment="Left" Grid.Row="1" Width="683" Height="628" VerticalAlignment="Top">
@@ -163,8 +167,11 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Grid HorizontalAlignment="Left" Margin="118,42,0,0" Width="498" Background="#FF6C6868" Opacity="0.56" Height="498" VerticalAlignment="Top" Grid.ColumnSpan="2">
-                <bm:Map Credentials="AoUOuK_2G1s85Q2GY00D7N0jxGEAmgxI5GvJcCcNsdER1y6FInZRydfJacQhwGNB" x:Name="myMap"/>
+            <Grid Name="postMap" HorizontalAlignment="Left" Margin="118,42,0,0" Width="498" Background="#FF6C6868" Opacity="0.56" Height="498" VerticalAlignment="Top" Grid.ColumnSpan="2">
+                <!--" Maps:Map x:Name="Map" Margin="0,0,0,0" Credentials="AhM23sQjMWJqyNEOwpSFp24ZoJpOrD8j0h_Adn1Guxm7be-zCVOin_fk1sJHkbtx"  Tapped="Map_Tapped"  >
+                    
+                </Maps:Map-->
+                
             </Grid>
         </Grid>
 

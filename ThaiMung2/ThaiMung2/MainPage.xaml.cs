@@ -11,6 +11,13 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Diagnostics;
+
+using Windows.Devices.Geolocation;
+using System.Threading;
+using System.Threading.Tasks;
+using Bing.Maps;
+
 
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
@@ -22,11 +29,25 @@ namespace ThaiMung2
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        //private Geolocator _geolocator = null;
+        //private CancellationTokenSource _cts = null;
+        //LocationIcon10m _locationIcon10m;
+        //LocationIcon100m _locationIcon100m;
+
+        MyMap map;
         FilterFlyout ft;
         public MainPage()
         {
             this.InitializeComponent();
+            map = new MyMap();
             ft = new FilterFlyout();
+
+            mainGrid.Children.Add(map);
+            //_geolocator = new Geolocator();
+            //_locationIcon10m = new LocationIcon10m();
+            //_locationIcon100m = new LocationIcon100m();
+            map.getCurrentLocation();
+            map.getPost();
         }
 
         /// <summary>
@@ -47,5 +68,7 @@ namespace ThaiMung2
         {
             ft.Show();
         }
+
+        
     }
 }

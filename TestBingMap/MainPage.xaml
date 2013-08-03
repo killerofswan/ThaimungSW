@@ -8,8 +8,31 @@
     xmlns:bm="using:Bing.Maps"
     mc:Ignorable="d">
 
+    <Page.BottomAppBar>
+        <AppBar  x:Name="bottomAppBar" Padding="10,0,10,0">
+            <Grid Height="84">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button x:Name="writeEvent" Style="{StaticResource AppBarButtonStyle}" Content="&#xE104;" AutomationProperties.Name="Post event" Click="writeEvent_Click" />
+                    <Button x:Name="filter" Style="{StaticResource AppBarButtonStyle}" Content="&#xE16E;" AutomationProperties.Name="Filter" Click="filter_Click">
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <bm:Map Credentials="AhM23sQjMWJqyNEOwpSFp24ZoJpOrD8j0h_Adn1Guxm7be-zCVOin_fk1sJHkbtx" x:Name="myMap"></bm:Map>
+        <Grid HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="1366">
+            <Canvas HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="1366" Background="White">
+                <TextBlock Canvas.Left="25" TextWrapping="Wrap" Text="Name" Canvas.Top="19" Foreground="Black" FontFamily="Segoe UI Light" FontSize="36"/>
+                <TextBlock Canvas.Left="1296" TextWrapping="Wrap" Text="Status: " Foreground="Black" FontFamily="Segoe UI" FontSize="18" Canvas.Top="4"/>
+                <TextBlock Canvas.Left="1121" TextWrapping="Wrap" Text="Ban" Canvas.Top="19" HorizontalAlignment="Right" Foreground="Black" FontFamily="Segoe UI Light" FontSize="36" Width="227" TextAlignment="Right"/>
+            </Canvas>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="688" Margin="0,80,0,0" VerticalAlignment="Top" Width="1366">
+            <bm:Map Credentials="AoUOuK_2G1s85Q2GY00D7N0jxGEAmgxI5GvJcCcNsdER1y6FInZRydfJacQhwGNB" x:Name="myMap"/>
+        </Grid>
 
     </Grid>
 </Page>

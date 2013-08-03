@@ -19,9 +19,14 @@ namespace ThaiMung2
     public sealed partial class MyUserControl1 : UserControl
     {
         public bool flState = false;
-        public MyUserControl1()
+        public PostPage x;
+        public String chooseTag = "";
+        public String resource;
+        public MyUserControl1(PostPage a)
         {
             this.InitializeComponent();
+            x = a;
+           
         }
 
         public void OnClosingEvent(object sender)
@@ -83,6 +88,63 @@ namespace ThaiMung2
 
         private void saveTagButton_Click(object sender, RoutedEventArgs e)
         {
+            if (checkTraffic.IsChecked == true)
+            {
+                chooseTag += checkTraffic.Content + ",";
+                    resource += "1,";
+            }
+            if (checkAccident.IsChecked == true)
+            {
+                chooseTag += checkAccident.Content + ",";
+                resource += "2,";
+            }
+            if (checkCrime.IsChecked == true)
+            {
+                chooseTag += checkCrime.Content + ",";
+                resource += "3,";
+            }
+            if (checkFire.IsChecked == true)
+            {
+                chooseTag += checkFire.Content + ",";
+                resource += "4,";
+            }
+            if (checkProtesting.IsChecked == true)
+            {
+                chooseTag += checkProtesting.Content + ",";
+                resource += "5,";
+            }
+            if (checkBlackout.IsChecked == true)
+            {
+                chooseTag += checkBlackout.Content + ",";
+                resource += "6,";
+            }
+            if (checkFlood.IsChecked == true)
+            {
+                chooseTag += checkFlood.Content + ",";
+                resource += "7,";
+            }
+            if (checkEarth.IsChecked == true)
+            {
+                chooseTag += checkEarth.Content + ",";
+                resource += "8,";
+            }
+            if (checkConstruction.IsChecked == true)
+            {
+                chooseTag += checkConstruction.Content + ",";
+                resource += "9,";
+            }
+            if (checkTerrorist.IsChecked == true)
+            {
+                chooseTag += checkTerrorist.Content + ",";
+                resource += "10,";
+            }
+            if (checkOther.IsChecked == true)
+            {
+                chooseTag += checkOther.Content + ",";
+                resource += "11,";
+            }
+            x.setTagsStr(chooseTag);
+            x.setTagsId(resource);
             Hide();
         }
     }
