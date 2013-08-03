@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-C:\Users\parat_000\Downloads\ThaimungSW-master (1)\ThaimungSW-master\ThaiMung2\ThaiMung2\ThaiMung2.csproj;x86
-=======
-C:\Users\tong__000\Documents\GitHub\ThaimungSW\ThaiMung2\ThaiMung2\ThaiMung2.csproj;x86
->>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
