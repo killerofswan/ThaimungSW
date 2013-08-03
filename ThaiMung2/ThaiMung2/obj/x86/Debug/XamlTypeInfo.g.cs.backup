@@ -120,6 +120,7 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
             }
         }
 
+<<<<<<< HEAD
         private object Activate_0_LayoutAwarePage() { return new global::ThaiMung2.Common.LayoutAwarePage(); }
 
         private object Activate_1_AdminPage() { return new global::ThaiMung2.AdminPage(); }
@@ -189,48 +190,135 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
         private object Activate_54_DirectionsContainerSelector() { return new global::Bing.Maps.Directions.DirectionsContainerSelector(); }
 
         private void VectorAdd_8_MapUIElementCollection(object instance, object item)
+=======
+        private object Activate_0_FilterFlyout() { return new global::ThaiMung2.FilterFlyout(); }
+
+        private object Activate_1_LocationIcon100m() { return new global::ThaiMung2.LocationIcon100m(); }
+
+        private object Activate_2_LocationIcon10m() { return new global::ThaiMung2.LocationIcon10m(); }
+
+        private object Activate_3_MainPage() { return new global::ThaiMung2.MainPage(); }
+
+        private object Activate_4_Map() { return new global::Bing.Maps.Map(); }
+
+        private object Activate_5_MapUIElementCollection() { return new global::Bing.Maps.MapUIElementCollection(); }
+
+        private object Activate_13_MapTileLayerCollection() { return new global::Bing.Maps.MapTileLayerCollection(); }
+
+        private object Activate_14_MapTileLayer() { return new global::Bing.Maps.MapTileLayer(); }
+
+        private object Activate_15_LocationRectCollection() { return new global::Bing.Maps.LocationRectCollection(); }
+
+        private object Activate_16_LocationRect() { return new global::Bing.Maps.LocationRect(); }
+
+        private object Activate_17_Location() { return new global::Bing.Maps.Location(); }
+
+        private object Activate_18_MapShapeLayerCollection() { return new global::Bing.Maps.MapShapeLayerCollection(); }
+
+        private object Activate_19_MapShapeLayer() { return new global::Bing.Maps.MapShapeLayer(); }
+
+        private object Activate_20_MapShapeCollection() { return new global::Bing.Maps.MapShapeCollection(); }
+
+        private object Activate_22_TrafficIncidentPushpinOptions() { return new global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions(); }
+
+        private object Activate_23_DirectionsUIEventManager() { return new global::Bing.Maps.Directions.DirectionsUIEventManager(); }
+
+        private object Activate_24_DirectionsRenderOptions() { return new global::Bing.Maps.Directions.DirectionsRenderOptions(); }
+
+        private object Activate_28_MyMap() { return new global::ThaiMung2.MyMap(); }
+
+        private object Activate_30_LayoutAwarePage() { return new global::ThaiMung2.Common.LayoutAwarePage(); }
+
+        private object Activate_31_PostPage() { return new global::ThaiMung2.PostPage(); }
+
+        private object Activate_32_DirectionsPolylineRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPolylineRenderOptions(); }
+
+        private object Activate_33_DirectionsPushpinRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPushpinRenderOptions(); }
+
+        private object Activate_34_Pushpin() { return new global::Bing.Maps.Pushpin(); }
+
+        private object Activate_35_MapItemsControl() { return new global::Bing.Maps.MapItemsControl(); }
+
+        private object Activate_36_VenueFloorDataSource() { return new global::Bing.Maps.VenueMaps.VenueFloorDataSource(); }
+
+        private object Activate_41_LocationCollection() { return new global::Bing.Maps.LocationCollection(); }
+
+        private object Activate_47_RouteLegDataSource() { return new global::Bing.Maps.Directions.RouteLegDataSource(); }
+
+        private object Activate_48_TransitRouteDataSource() { return new global::Bing.Maps.Directions.TransitRouteDataSource(); }
+
+        private object Activate_49_RouteLegDataTemplateSelector() { return new global::Bing.Maps.Directions.RouteLegDataTemplateSelector(); }
+
+        private object Activate_50_DirectionsContainerSelector() { return new global::Bing.Maps.Directions.DirectionsContainerSelector(); }
+
+        private void VectorAdd_5_MapUIElementCollection(object instance, object item)
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.UIElement>)instance;
             var newItem = (global::Windows.UI.Xaml.UIElement)item;
             collection.Add(newItem);
         }
 
+<<<<<<< HEAD
         private void VectorAdd_16_MapTileLayerCollection(object instance, object item)
+=======
+        private void VectorAdd_13_MapTileLayerCollection(object instance, object item)
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapTileLayer>)instance;
             var newItem = (global::Bing.Maps.MapTileLayer)item;
             collection.Add(newItem);
         }
 
+<<<<<<< HEAD
         private void VectorAdd_18_LocationRectCollection(object instance, object item)
+=======
+        private void VectorAdd_15_LocationRectCollection(object instance, object item)
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.LocationRect>)instance;
             var newItem = (global::Bing.Maps.LocationRect)item;
             collection.Add(newItem);
         }
 
+<<<<<<< HEAD
         private void VectorAdd_21_MapShapeLayerCollection(object instance, object item)
+=======
+        private void VectorAdd_18_MapShapeLayerCollection(object instance, object item)
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapShapeLayer>)instance;
             var newItem = (global::Bing.Maps.MapShapeLayer)item;
             collection.Add(newItem);
         }
 
+<<<<<<< HEAD
         private void VectorAdd_23_MapShapeCollection(object instance, object item)
+=======
+        private void VectorAdd_20_MapShapeCollection(object instance, object item)
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapShape>)instance;
             var newItem = (global::Bing.Maps.MapShape)item;
             collection.Add(newItem);
         }
 
+<<<<<<< HEAD
         private void VectorAdd_41_IObservableVector(object instance, object item)
+=======
+        private void VectorAdd_37_IObservableVector(object instance, object item)
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
 
+<<<<<<< HEAD
         private void VectorAdd_45_LocationCollection(object instance, object item)
+=======
+        private void VectorAdd_41_LocationCollection(object instance, object item)
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.Location>)instance;
             var newItem = (global::Bing.Maps.Location)item;
@@ -245,14 +333,24 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             switch (typeName)
             {
+<<<<<<< HEAD
             case "Windows.UI.Xaml.Controls.Page":
                 xamlType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.Page));
                 break;
 
+=======
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
             case "Windows.UI.Xaml.Controls.UserControl":
                 xamlType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.UserControl));
                 break;
 
+<<<<<<< HEAD
+=======
+            case "Windows.UI.Xaml.Controls.Page":
+                xamlType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.Page));
+                break;
+
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
             case "Windows.UI.Xaml.Controls.Control":
                 xamlType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.Control));
                 break;
@@ -317,6 +415,7 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
                 xamlType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Style));
                 break;
 
+<<<<<<< HEAD
             case "ThaiMung2.Common.LayoutAwarePage":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.Common.LayoutAwarePage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_LayoutAwarePage;
@@ -338,30 +437,51 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
             case "ThaiMung2.FullText":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.FullText), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_3_FullText;
+=======
+            case "ThaiMung2.FilterFlyout":
+                userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.FilterFlyout), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_0_FilterFlyout;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
             case "ThaiMung2.LocationIcon100m":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.LocationIcon100m), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+<<<<<<< HEAD
                 userType.Activator = Activate_4_LocationIcon100m;
+=======
+                userType.Activator = Activate_1_LocationIcon100m;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
             case "ThaiMung2.LocationIcon10m":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.LocationIcon10m), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+<<<<<<< HEAD
                 userType.Activator = Activate_5_LocationIcon10m;
+=======
+                userType.Activator = Activate_2_LocationIcon10m;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
             case "ThaiMung2.MainPage":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.MainPage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+<<<<<<< HEAD
                 userType.Activator = Activate_6_MainPage;
+=======
+                userType.Activator = Activate_3_MainPage;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.Map":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Map), GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
+<<<<<<< HEAD
                 userType.Activator = Activate_7_Map;
+=======
+                userType.Activator = Activate_4_Map;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.SetContentPropertyName("Bing.Maps.Map.Children");
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Credentials");
@@ -443,8 +563,13 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.MapUIElementCollection":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapUIElementCollection), GetXamlTypeByName("Object"));
+<<<<<<< HEAD
                 userType.Activator = Activate_8_MapUIElementCollection;
                 userType.CollectionAdd = VectorAdd_8_MapUIElementCollection;
+=======
+                userType.Activator = Activate_5_MapUIElementCollection;
+                userType.CollectionAdd = VectorAdd_5_MapUIElementCollection;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
@@ -489,14 +614,23 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.MapTileLayerCollection":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapTileLayerCollection), GetXamlTypeByName("Object"));
+<<<<<<< HEAD
                 userType.Activator = Activate_16_MapTileLayerCollection;
                 userType.CollectionAdd = VectorAdd_16_MapTileLayerCollection;
+=======
+                userType.Activator = Activate_13_MapTileLayerCollection;
+                userType.CollectionAdd = VectorAdd_13_MapTileLayerCollection;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapTileLayer":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapTileLayer), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+<<<<<<< HEAD
                 userType.Activator = Activate_17_MapTileLayer;
+=======
+                userType.Activator = Activate_14_MapTileLayer;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("Bounds");
                 userType.AddMemberName("FillMissingTiles");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
@@ -524,14 +658,23 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.LocationRectCollection":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationRectCollection), GetXamlTypeByName("Object"));
+<<<<<<< HEAD
                 userType.Activator = Activate_18_LocationRectCollection;
                 userType.CollectionAdd = VectorAdd_18_LocationRectCollection;
+=======
+                userType.Activator = Activate_15_LocationRectCollection;
+                userType.CollectionAdd = VectorAdd_15_LocationRectCollection;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.LocationRect":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationRect), GetXamlTypeByName("Object"));
+<<<<<<< HEAD
                 userType.Activator = Activate_19_LocationRect;
+=======
+                userType.Activator = Activate_16_LocationRect;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("West");
                 AddToMapOfTypeToStandardName(typeof(global::System.Double),
                                                    "Double");
@@ -558,7 +701,11 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.Location":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Location), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+<<<<<<< HEAD
                 userType.Activator = Activate_20_Location;
+=======
+                userType.Activator = Activate_17_Location;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("Longitude");
                 AddToMapOfTypeToStandardName(typeof(global::System.Double),
                                                    "Double");
@@ -570,14 +717,23 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.MapShapeLayerCollection":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeLayerCollection), GetXamlTypeByName("Object"));
+<<<<<<< HEAD
                 userType.Activator = Activate_21_MapShapeLayerCollection;
                 userType.CollectionAdd = VectorAdd_21_MapShapeLayerCollection;
+=======
+                userType.Activator = Activate_18_MapShapeLayerCollection;
+                userType.CollectionAdd = VectorAdd_18_MapShapeLayerCollection;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapShapeLayer":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeLayer), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+<<<<<<< HEAD
                 userType.Activator = Activate_22_MapShapeLayer;
+=======
+                userType.Activator = Activate_19_MapShapeLayer;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("Visible");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
                                                    "Boolean");
@@ -590,8 +746,13 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.MapShapeCollection":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeCollection), GetXamlTypeByName("Object"));
+<<<<<<< HEAD
                 userType.Activator = Activate_23_MapShapeCollection;
                 userType.CollectionAdd = VectorAdd_23_MapShapeCollection;
+=======
+                userType.Activator = Activate_20_MapShapeCollection;
+                userType.CollectionAdd = VectorAdd_20_MapShapeCollection;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
@@ -605,7 +766,11 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+<<<<<<< HEAD
                 userType.Activator = Activate_25_TrafficIncidentPushpinOptions;
+=======
+                userType.Activator = Activate_22_TrafficIncidentPushpinOptions;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("WeatherPushpinTemplate");
                 userType.AddMemberName("AlertPushpinTemplate");
                 userType.AddMemberName("ConstructionPushpinTemplate");
@@ -623,14 +788,22 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.Directions.DirectionsUIEventManager":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsUIEventManager), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+<<<<<<< HEAD
                 userType.Activator = Activate_26_DirectionsUIEventManager;
+=======
+                userType.Activator = Activate_23_DirectionsUIEventManager;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.Directions.DirectionsRenderOptions":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsRenderOptions), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+<<<<<<< HEAD
                 userType.Activator = Activate_27_DirectionsRenderOptions;
+=======
+                userType.Activator = Activate_24_DirectionsRenderOptions;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("WalkingPolylineOptions");
                 userType.AddMemberName("TransitPolylineOptions");
                 userType.AddMemberName("DrivingPolylineOptions");
@@ -702,7 +875,11 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "ThaiMung2.MyMap":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.MyMap), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+<<<<<<< HEAD
                 userType.Activator = Activate_31_MyMap;
+=======
+                userType.Activator = Activate_28_MyMap;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
@@ -711,6 +888,7 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case "ThaiMung2.OtherUser":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.OtherUser), GetXamlTypeByName("ThaiMung2.Common.LayoutAwarePage"));
                 userType.Activator = Activate_33_OtherUser;
@@ -720,18 +898,31 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
             case "ThaiMung2.OwnerEvent":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.OwnerEvent), GetXamlTypeByName("ThaiMung2.Common.LayoutAwarePage"));
                 userType.Activator = Activate_34_OwnerEvent;
+=======
+            case "ThaiMung2.Common.LayoutAwarePage":
+                userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.Common.LayoutAwarePage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_30_LayoutAwarePage;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
             case "ThaiMung2.PostPage":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::ThaiMung2.PostPage), GetXamlTypeByName("ThaiMung2.Common.LayoutAwarePage"));
+<<<<<<< HEAD
                 userType.Activator = Activate_35_PostPage;
+=======
+                userType.Activator = Activate_31_PostPage;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.Directions.DirectionsPolylineRenderOptions":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsPolylineRenderOptions), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+<<<<<<< HEAD
                 userType.Activator = Activate_36_DirectionsPolylineRenderOptions;
+=======
+                userType.Activator = Activate_32_DirectionsPolylineRenderOptions;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("Visible");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
                                                    "Boolean");
@@ -745,7 +936,11 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.Directions.DirectionsPushpinRenderOptions":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsPushpinRenderOptions), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+<<<<<<< HEAD
                 userType.Activator = Activate_37_DirectionsPushpinRenderOptions;
+=======
+                userType.Activator = Activate_33_DirectionsPushpinRenderOptions;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("Visible");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
                                                    "Boolean");
@@ -757,7 +952,11 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.Pushpin":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Pushpin), GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
+<<<<<<< HEAD
                 userType.Activator = Activate_38_Pushpin;
+=======
+                userType.Activator = Activate_34_Pushpin;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("AssociateObject");
                 AddToMapOfTypeToStandardName(typeof(global::System.Object),
                                                    "Object");
@@ -773,14 +972,22 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.MapItemsControl":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapItemsControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
+<<<<<<< HEAD
                 userType.Activator = Activate_39_MapItemsControl;
+=======
+                userType.Activator = Activate_35_MapItemsControl;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.VenueMaps.VenueFloorDataSource":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueFloorDataSource), GetXamlTypeByName("Object"));
+<<<<<<< HEAD
                 userType.Activator = Activate_40_VenueFloorDataSource;
+=======
+                userType.Activator = Activate_36_VenueFloorDataSource;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("Items");
                 AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
                                                    "Windows.Foundation.Collections.IObservableVector<Object>");
@@ -795,7 +1002,11 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>), null);
                 AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
                                                    "Windows.Foundation.Collections.IObservableVector<Object>");
+<<<<<<< HEAD
                 userType.CollectionAdd = VectorAdd_41_IObservableVector;
+=======
+                userType.CollectionAdd = VectorAdd_37_IObservableVector;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
@@ -886,8 +1097,13 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.LocationCollection":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationCollection), GetXamlTypeByName("Object"));
+<<<<<<< HEAD
                 userType.Activator = Activate_45_LocationCollection;
                 userType.CollectionAdd = VectorAdd_45_LocationCollection;
+=======
+                userType.Activator = Activate_41_LocationCollection;
+                userType.CollectionAdd = VectorAdd_41_LocationCollection;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 xamlType = userType;
                 break;
 
@@ -974,7 +1190,11 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.Directions.RouteLegDataSource":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.RouteLegDataSource), GetXamlTypeByName("Object"));
+<<<<<<< HEAD
                 userType.Activator = Activate_51_RouteLegDataSource;
+=======
+                userType.Activator = Activate_47_RouteLegDataSource;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("Items");
                 AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
                                                    "Windows.Foundation.Collections.IObservableVector<Object>");
@@ -990,7 +1210,11 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.Directions.TransitRouteDataSource":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.TransitRouteDataSource), GetXamlTypeByName("Object"));
+<<<<<<< HEAD
                 userType.Activator = Activate_52_TransitRouteDataSource;
+=======
+                userType.Activator = Activate_48_TransitRouteDataSource;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("AutomationName");
                 AddToMapOfTypeToStandardName(typeof(global::System.String),
                                                    "String");
@@ -1006,7 +1230,11 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.Directions.RouteLegDataTemplateSelector":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.RouteLegDataTemplateSelector), GetXamlTypeByName("Windows.UI.Xaml.Controls.DataTemplateSelector"));
+<<<<<<< HEAD
                 userType.Activator = Activate_53_RouteLegDataTemplateSelector;
+=======
+                userType.Activator = Activate_49_RouteLegDataTemplateSelector;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("RouteLegHeaderItemTemplate");
                 userType.AddMemberName("GroupRouteLegHeaderItemTemplate");
                 userType.AddMemberName("WalkItineraryItemTemplate");
@@ -1020,7 +1248,11 @@ namespace ThaiMung2.ThaiMung2_XamlTypeInfo
 
             case "Bing.Maps.Directions.DirectionsContainerSelector":
                 userType = new global::ThaiMung2.ThaiMung2_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsContainerSelector), GetXamlTypeByName("Windows.UI.Xaml.Controls.StyleSelector"));
+<<<<<<< HEAD
                 userType.Activator = Activate_54_DirectionsContainerSelector;
+=======
+                userType.Activator = Activate_50_DirectionsContainerSelector;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                 userType.AddMemberName("UnSelectableStyle");
                 userType.AddMemberName("SelectableStyle");
                 userType.SetIsBindable();

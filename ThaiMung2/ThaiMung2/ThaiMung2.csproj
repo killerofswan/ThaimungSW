@@ -133,6 +133,7 @@
     <Compile Include="ListWitness.xaml.cs">
       <DependentUpon>ListWitness.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Hashtable.cs" />
     <Compile Include="LocationIcon100m.xaml.cs">
       <DependentUpon>LocationIcon100m.xaml</DependentUpon>
     </Compile>

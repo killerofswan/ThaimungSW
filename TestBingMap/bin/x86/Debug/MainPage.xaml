@@ -8,6 +8,7 @@
     xmlns:bm="using:Bing.Maps"
     mc:Ignorable="d">
 
+<<<<<<< HEAD
     <Page.BottomAppBar>
         <AppBar  x:Name="bottomAppBar" Padding="10,0,10,0">
             <Grid Height="84">
@@ -33,6 +34,10 @@
         <Grid HorizontalAlignment="Left" Height="688" Margin="0,80,0,0" VerticalAlignment="Top" Width="1366">
             <bm:Map Credentials="AoUOuK_2G1s85Q2GY00D7N0jxGEAmgxI5GvJcCcNsdER1y6FInZRydfJacQhwGNB" x:Name="myMap"/>
         </Grid>
+=======
+    <Grid Name="mainGrid" Background="{StaticResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.505,0.531">
+        <!--<bm:Map Credentials="AhM23sQjMWJqyNEOwpSFp24ZoJpOrD8j0h_Adn1Guxm7be-zCVOin_fk1sJHkbtx" x:Name="myMap"></bm:Map>-->
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
 
     </Grid>
 </Page>

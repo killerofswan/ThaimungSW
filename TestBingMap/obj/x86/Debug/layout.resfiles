@@ -4,4 +4,7 @@ Assets\SplashScreen.png
 Assets\StoreLogo.png
 App.xaml
 Common\StandardStyles.xaml
+LocationIcon100m.xaml
+LocationIcon10m.xaml
 MainPage.xaml
+MyMap.xaml

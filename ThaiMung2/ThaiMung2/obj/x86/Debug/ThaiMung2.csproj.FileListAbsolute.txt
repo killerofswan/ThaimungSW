@@ -88,6 +88,7 @@ C:\Users\tong__000\Documents\GitHub\ThaimungSW\ThaiMung2\ThaiMung2\obj\x86\Debug
 C:\Users\tong__000\Documents\GitHub\ThaimungSW\ThaiMung2\ThaiMung2\bin\x86\Debug\Newtonsoft.Json.dll
 C:\Users\tong__000\Documents\GitHub\ThaimungSW\ThaiMung2\ThaiMung2\bin\x86\Debug\Newtonsoft.Json.xml
 C:\Users\tong__000\Documents\GitHub\ThaimungSW\ThaiMung2\ThaiMung2\obj\x86\Debug\ThaiMung2.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\parat_000\Downloads\ThaimungSW-master (1)\ThaimungSW-master\ThaiMung2\ThaiMung2\obj\x86\Debug\App.g.i.cs
 C:\Users\parat_000\Downloads\ThaimungSW-master (1)\ThaimungSW-master\ThaiMung2\ThaiMung2\obj\x86\Debug\App.g.cs
 C:\Users\parat_000\Downloads\ThaimungSW-master (1)\ThaimungSW-master\ThaiMung2\ThaiMung2\obj\x86\Debug\Common\StandardStyles.g.i.cs
@@ -154,3 +155,5 @@ C:\Users\parat_000\Downloads\ThaimungSW-master (1)\ThaimungSW-master\ThaiMung2\T
 C:\Users\parat_000\Downloads\ThaimungSW-master (1)\ThaimungSW-master\ThaiMung2\ThaiMung2\obj\x86\Debug\ListWitness.g.i.cs
 C:\Users\parat_000\Downloads\ThaimungSW-master (1)\ThaimungSW-master\ThaiMung2\ThaiMung2\obj\x86\Debug\ListWitness.g.cs
 C:\Users\parat_000\Downloads\ThaimungSW-master (1)\ThaimungSW-master\ThaiMung2\ThaiMung2\obj\x86\Debug\ListWitness.xaml
+=======
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7

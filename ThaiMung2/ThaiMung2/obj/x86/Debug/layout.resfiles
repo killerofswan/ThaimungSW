@@ -7,8 +7,11 @@ AdminPage.xaml
 App.xaml
 Common\StandardStyles.xaml
 FilterFlyout.xaml
+<<<<<<< HEAD
 FullText.xaml
 ListWitness.xaml
+=======
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
 LocationIcon100m.xaml
 LocationIcon10m.xaml
 MainPage.xaml

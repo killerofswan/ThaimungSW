@@ -21,6 +21,11 @@ using System.Diagnostics;
 
 using Newtonsoft.Json.Linq;
 using System.Net.Http;
+<<<<<<< HEAD
+=======
+
+using System.Collections;
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
 // The User Control item template is documented at http://go.microsoft.com/fwlink/?LinkId=234236
 
 namespace ThaiMung2
@@ -32,16 +37,29 @@ namespace ThaiMung2
         LocationIcon10m _locationIcon10m;
         LocationIcon100m _locationIcon100m;
         List<Post> post = new List<Post>();
+<<<<<<< HEAD
+=======
+        Dictionary<int, Post> p = new Dictionary<int, Post>();
+        
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
         PostPage ps;
 
         public MyMap()
         {
+<<<<<<< HEAD
+=======
+              
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
             this.InitializeComponent();
             _geolocator = new Geolocator();
             _locationIcon10m = new LocationIcon10m();
             _locationIcon100m = new LocationIcon100m();
             //getCurrentLocation();
             //getPost();
+<<<<<<< HEAD
+=======
+            ps = new PostPage();
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
         }
 
         public MyMap(double width, double height,PostPage page)
@@ -161,6 +179,11 @@ namespace ThaiMung2
             Location location;
             Map.TryPixelToLocation(tapPosition, out location);
 
+<<<<<<< HEAD
+=======
+            Debug.WriteLine(sender.ToString());
+            
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
             ps.setLocation(location.Latitude.ToString(),location.Longitude.ToString());
 
             // The pushpin to add to the map.
@@ -176,6 +199,10 @@ namespace ThaiMung2
         public async void getPost()
         {
             post.Clear();
+<<<<<<< HEAD
+=======
+            p.Clear();
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
             // Map.Children.Clear();
 
             HttpClient client = new HttpClient();
@@ -189,7 +216,11 @@ namespace ThaiMung2
             var str = await response.Content.ReadAsStringAsync();
 
             string s = str.ToString();
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
             Debug.WriteLine(s);
 
             if (s.Equals("Not Found"))
@@ -240,6 +271,10 @@ namespace ThaiMung2
                     if (i >= o.Count)
                     {
                         post.Add(tmp);
+<<<<<<< HEAD
+=======
+                        p.Add(tmp.p_id, tmp);
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                     }
                     else
                     {
@@ -247,6 +282,10 @@ namespace ThaiMung2
                         {
                             Debug.WriteLine("not multi Tag");
                             post.Add(tmp);
+<<<<<<< HEAD
+=======
+                            p.Add(tmp.p_id, tmp);
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                             continue;
                         }
                         else
@@ -259,10 +298,16 @@ namespace ThaiMung2
                             }
                             Debug.WriteLine("after add multi nameTag");
                             post.Add(tmp);
+<<<<<<< HEAD
+=======
+                            p.Add(tmp.p_id,tmp);
+                            
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                         }
                     }
                 }
                 Debug.WriteLine("Before add");
+<<<<<<< HEAD
                 foreach (var item in post)
                 {
                     Debug.WriteLine("foreach add");
@@ -270,6 +315,15 @@ namespace ThaiMung2
                     Pushpin pushpin = new Pushpin();
                     pushpin.Text = item.p_id.ToString();
                     Location locate = new Location(item.latitude, item.longtitude);
+=======
+                foreach (var item in p)
+                {
+                    Debug.WriteLine("foreach add");
+                    Debug.WriteLine(item.Value.p_id + " " + item.Value.nameTag.ElementAt(0).ToString());
+                    Pushpin pushpin = new Pushpin();
+                    pushpin.Text = item.Value.p_id.ToString();
+                    Location locate = new Location(item.Value.latitude, item.Value.longtitude);
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
                     MapLayer.SetPosition(pushpin, locate);
                     pushpin.Tapped += new TappedEventHandler(pushpinTapped);
                     Map.Children.Add(pushpin);
@@ -281,6 +335,15 @@ namespace ThaiMung2
         {
             //MessageDialog dialog = new MessageDialog("Hello from Seattle.");
             //await dialog.ShowAsync();
+<<<<<<< HEAD
+=======
+           string txt =  ((Pushpin)sender).Text;
+           int pid = Convert.ToInt32(txt);
+           Post tmp = p[pid];
+            
+            
+
+>>>>>>> c9cfc5179f36887f5c913cbca51f94032375d8a7
         }
 
 
