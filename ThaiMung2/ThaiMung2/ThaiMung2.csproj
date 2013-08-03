@@ -124,6 +124,7 @@
     <Compile Include="FilterFlyout.xaml.cs">
       <DependentUpon>FilterFlyout.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Hashtable.cs" />
     <Compile Include="LocationIcon100m.xaml.cs">
       <DependentUpon>LocationIcon100m.xaml</DependentUpon>
     </Compile>

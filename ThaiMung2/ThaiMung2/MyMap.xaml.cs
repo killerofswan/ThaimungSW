@@ -21,6 +21,8 @@ using System.Diagnostics;
 
 using Newtonsoft.Json.Linq;
 using System.Net.Http;
+
+using System.Collections;
 // The User Control item template is documented at http://go.microsoft.com/fwlink/?LinkId=234236
 
 namespace ThaiMung2
@@ -32,16 +34,20 @@ namespace ThaiMung2
         LocationIcon10m _locationIcon10m;
         LocationIcon100m _locationIcon100m;
         List<Post> post = new List<Post>();
+        Dictionary<int, Post> p = new Dictionary<int, Post>();
+        
         PostPage ps;
 
         public MyMap()
         {
+              
             this.InitializeComponent();
             _geolocator = new Geolocator();
             _locationIcon10m = new LocationIcon10m();
             _locationIcon100m = new LocationIcon100m();
             //getCurrentLocation();
             //getPost();
+            ps = new PostPage();
         }
 
         public MyMap(double width, double height,PostPage page)
@@ -161,6 +167,8 @@ namespace ThaiMung2
             Location location;
             Map.TryPixelToLocation(tapPosition, out location);
 
+            Debug.WriteLine(sender.ToString());
+            
             ps.setLocation(location.Latitude.ToString(),location.Longitude.ToString());
 
             // The pushpin to add to the map.
@@ -176,6 +184,7 @@ namespace ThaiMung2
         public async void getPost()
         {
             post.Clear();
+            p.Clear();
             // Map.Children.Clear();
 
             HttpClient client = new HttpClient();
@@ -240,6 +249,7 @@ namespace ThaiMung2
                     if (i >= o.Count)
                     {
                         post.Add(tmp);
+                        p.Add(tmp.p_id, tmp);
                     }
                     else
                     {
@@ -247,6 +257,7 @@ namespace ThaiMung2
                         {
                             Debug.WriteLine("not multi Tag");
                             post.Add(tmp);
+                            p.Add(tmp.p_id, tmp);
                             continue;
                         }
                         else
@@ -259,17 +270,19 @@ namespace ThaiMung2
                             }
                             Debug.WriteLine("after add multi nameTag");
                             post.Add(tmp);
+                            p.Add(tmp.p_id,tmp);
+                            
                         }
                     }
                 }
                 Debug.WriteLine("Before add");
-                foreach (var item in post)
+                foreach (var item in p)
                 {
                     Debug.WriteLine("foreach add");
-                    Debug.WriteLine(item.p_id + " " + item.nameTag.ElementAt(0).ToString());
+                    Debug.WriteLine(item.Value.p_id + " " + item.Value.nameTag.ElementAt(0).ToString());
                     Pushpin pushpin = new Pushpin();
-                    pushpin.Text = item.p_id.ToString();
-                    Location locate = new Location(item.latitude, item.longtitude);
+                    pushpin.Text = item.Value.p_id.ToString();
+                    Location locate = new Location(item.Value.latitude, item.Value.longtitude);
                     MapLayer.SetPosition(pushpin, locate);
                     pushpin.Tapped += new TappedEventHandler(pushpinTapped);
                     Map.Children.Add(pushpin);
@@ -281,6 +294,12 @@ namespace ThaiMung2
         {
             //MessageDialog dialog = new MessageDialog("Hello from Seattle.");
             //await dialog.ShowAsync();
+           string txt =  ((Pushpin)sender).Text;
+           int pid = Convert.ToInt32(txt);
+           Post tmp = p[pid];
+            
+            
+
         }
 
 
